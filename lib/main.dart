@@ -11,10 +11,11 @@ class AzureHT extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
         title: 'AZURE How To',
         theme: ThemeData(
     primarySwatch: Colors.blue,
-    visualDensity: VisualDensity.adaptivePlatformDensity,
+    // visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
         home: SpalashPage(title: 'Splash'),
       );

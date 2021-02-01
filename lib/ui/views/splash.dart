@@ -1,3 +1,4 @@
+import 'package:azurehowto/app/utils/AHTColor.dart';
 import 'package:azurehowto/ui/views/home.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -19,7 +20,8 @@ class SpalashPage extends StatelessWidget {
             appBar: AppBar(
               brightness: Brightness.light,
               backgroundColor: Colors.white,
-              elevation: 0,
+              elevation: .5,centerTitle: true,
+              title: Text("Azure How To",style: TextStyle(color:AHTColors.primaryColor,fontSize: 20 ,  fontWeight: FontWeight.w600,),),
             ),
             backgroundColor: Colors.white,
             body: ListView(
@@ -28,8 +30,8 @@ class SpalashPage extends StatelessWidget {
                   height: 260,
                   padding: const EdgeInsets.symmetric(horizontal: 28.0),
                   child: Image(
-                      image: CachedNetworkImageProvider(
-                          'https://image.freepik.com/free-vector/webinar-concept-illustration_114360-4764.jpg')),
+                      image: AssetImage("assets/images/splash1.jpeg"))
+                         ,
                 ),
                 const VMargin(50),
                 Padding(
