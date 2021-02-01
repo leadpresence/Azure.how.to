@@ -1,0 +1,39 @@
+{
+    "videos": [
+        {
+               "id": 1,
+               "title": "How to use pills to filter in the Azure Portal | Azure Portal Series",
+               "length": 4.26,
+               "desc": "In this video you would learn about the new design for pills, how to use them when filtering resources, and how to add and edit pill filters.",
+               "url": "https://www.youtube.com/watch?v=XyKh_3NxUlM&list=PLLasX02E8BPBKgXP4oflOL29TtqTzwhxR",
+               "image": "https://image.freepik.com/free-photo/blue-sky-with-clouds_1112-454.jpg",
+               "category": "how-to",
+               "disliked": false
+           },
+           
+           {
+            "id": 2,
+            "title": "How to get a visualization view of your resources",
+            "lenth": 5.35,
+            "desc": "In this video you would learn how to easily view a summary of your resources using different visualizations such as how to view all your resources on a map ",
+            "url": "https://www.youtube.com/watch?v=wudqkkJd5E4&list=PLLasX02E8BPBKgXP4oflOL29TtqTzwhxR&index=2",
+            "image": "https://image.freepik.com/free-photo/back-view-unrecognizable-dark-skinned-european-man-standing-boardwalk-tropical-beach-feeling-happy-free-while-seeing-ocean-first-time-during-summer-trip-keeping-arms-wide-open_273609-977.jpg",
+            "category": "how-to",
+            "disliked": false
+        },
+        {
+            "id": 3,
+            "title": "How to use Azure Cost Management views",
+            "lenth": 9.01,
+            "desc": "In this video you would  learn about built-in cost views in #Microsoft Azure Cost Management and how to create your own custom views. ",
+            
+            "url": "https://www.youtube.com/watch?v=VRJA5bn2VH0&list=PLLasX02E8BPBKgXP4oflOL29TtqTzwhxR&index=3",
+            "image": "https://image.freepik.com/free-photo/photo-frame-blue-yellow-bright-dry-colors_23-2148016397.jpg",
+            "category": "how-to",
+            "disliked": false
+        }
+
+           
+    ]
+
+}

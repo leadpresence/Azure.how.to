@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "402492333480",
+    "project_id": "azure-how-to",
+    "storage_bucket": "azure-how-to.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402492333480:android:0648e5a8a37e1c68ff919d",
+        "android_client_info": {
+          "package_name": "com.leadpresence.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402492333480-nr5inq6h20594bluu407um7ri9ditj83.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leadpresence.com",
+            "certificate_hash": "7821eafd16c3205ca8fd0dcb044c5c176ae51b88"
+          }
+        },
+        {
+          "client_id": "402492333480-dskapaj5hq3q7vr8b3t1orc4m4g5vrpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkfnzogEHtoWInzucrjPe3laFJWVGY5j8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402492333480-dskapaj5hq3q7vr8b3t1orc4m4g5vrpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

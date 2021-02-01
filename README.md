@@ -1,16 +1,14 @@
 # azurehowto
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+All rights Reserved to the original owners of the resources on this Application Microsoft Inc.
 
-A few resources to get you started if this is your first Flutter project:
+This application simply provides short compiled videos from youtube.com on azure portal fundamentals and the developer of this 
+application is not the original make or owner of this videos and do not in any way claim to own these videos. 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+The developer DO NOT INTEND to USE this application for any financial gain such as in app advertisement of the likes , just simple fast way to reach anyone who
+wished to go through the azure portal within hours. This can be a tool for education, interviews and my be the azure fundamentals Examination
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
