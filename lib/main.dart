@@ -1,3 +1,4 @@
+import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'ui/views/splash.dart';
@@ -12,14 +13,14 @@ class AzureHT extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+        builder: BotToastInit(), 
+        navigatorObservers: [BotToastNavigatorObserver()],
         title: 'AZURE How To',
         theme: ThemeData(
-    primarySwatch: Colors.blue,
+    primarySwatch: Colors.grey,
     // visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
         home: SpalashPage(title: 'Splash'),
       );
   }
 }
-
-

@@ -27,11 +27,12 @@ class _HomeState extends State<Home> {
     return Scaffold(
       
         // brightness: Brightness.light,
-              backgroundColor: Colors.white,
+        //       backgroundColor: Colors.white,
 
     
-          body: SafeArea(
-                      child: Container(
+          body: Padding(
+            padding: EdgeInsets.only(top:10),
+                  child: Container(
         height: MediaQuery.of(context).size.height,
         child: ListView(
               children: <Widget>[
@@ -41,7 +42,7 @@ class _HomeState extends State<Home> {
                   margin: EdgeInsets.symmetric(horizontal: 20),
                   decoration: BoxDecoration(
         color: Colors.white,
-        borderRadius: BorderRadius.circular(10),
+        borderRadius: BorderRadius.circular(20),
         boxShadow: [
             BoxShadow(
               spreadRadius: -12,
